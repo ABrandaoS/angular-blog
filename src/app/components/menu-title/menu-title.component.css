@@ -1,0 +1,18 @@
+.container__menu-title > h1{
+    color: white;
+    font-size: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__menu-title > h1:hover {
+    color: orangered;
+    transition: 0.5s;
+}
+
+.container__menu-title > hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
