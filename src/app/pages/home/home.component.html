@@ -6,12 +6,27 @@
 
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card 
+            photoCover="https://picsum.photos/800/400"
+            cardTitle="Título da Notícia no BigCard"
+            cardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit." >
+        </app-big-card>
     </div>
-    <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
 
+    <div class="articles__others">
+        <app-small-card 
+            photoCover="https://picsum.photos/400/200"
+            cardTitle="A Internet 4.0, também referida como Web 4.0 ou Internet Simbiótica">
+        </app-small-card>
+
+        <app-small-card
+            photoCover="https://picsum.photos/200/300?grayscale"
+            cardTitle="A Inteligência Artificial (IA)">
+        </app-small-card>
+        
+        <app-small-card
+            photoCover="https://picsum.photos/200/300"
+            cardTitle="O que é Computação Quântica">
+        </app-small-card>
     </div>
 </div>
