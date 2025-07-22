@@ -19,10 +19,15 @@
 .big-card__title > h1 {
     margin-top: 15px;
     font-size: 30px;
+    transition: 0.3s;
+}
+
+.big-card__title > h1:hover{
+    color: orangered;
 }
 
 .big-card__description > p {
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 25px;
     color: gray;
 }
